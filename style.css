@@ -569,8 +569,9 @@ footer .logo img {
     padding: 0 0 23px;
 }
 .tabs li {
-    width: 12px;
-    height: 12px;
+    /* width: 12px; */
+    /* height: 12px; */
+    padding: 5px 10px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
@@ -589,6 +590,7 @@ footer .logo img {
 .tab li.active {
     cursor: default;
     background-color: #1e65c3;
+    color: #fff;
 }
 .box {
     display: none;
