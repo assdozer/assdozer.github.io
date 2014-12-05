@@ -671,11 +671,6 @@ footer .logo img {
     .banner .wrap img {
         margin-bottom: 10px;
     }
-    .banner h1 {
-        padding: 0 30px;
-        line-height: inherit;
-        font-size: inherit;
-    }
     .promo .wrap {
         min-height: 0;
     }
@@ -764,6 +759,11 @@ footer .logo img {
     }
 }
 @media (max-width: 767px){
+    .banner h1 {
+        padding: 0 10px;
+        line-height: inherit;
+        font-size: inherit;
+    }
     header {
         text-align: center;
     }
