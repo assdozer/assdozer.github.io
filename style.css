@@ -657,6 +657,9 @@ footer .logo img {
 
 /* Responsive -------------------------- */
 @media (max-width: 959px){
+    .banner {
+        padding: 30px 0 65px;
+    }
     .banner .wrap {
         padding: 0;
     }
