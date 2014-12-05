@@ -380,6 +380,11 @@ footer .logo img {
     text-align: center;
     padding: 60px 0 95px;
 }
+.banner .wrap img {
+    margin-bottom: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
 .banner p {
     margin: 0 60px 16px;
 }
@@ -662,6 +667,9 @@ footer .logo img {
     }
     .banner .wrap {
         padding: 0;
+    }
+    .banner .wrap img {
+        margin-bottom: 10px;
     }
     .banner h1 {
         padding: 0 30px;
