@@ -657,6 +657,14 @@ footer .logo img {
 
 /* Responsive -------------------------- */
 @media (max-width: 959px){
+    .banner .wrap {
+        padding: 0;
+    }
+    .banner h1 {
+        padding: 0 30px;
+        line-height: inherit;
+        font-size: inherit;
+    }
     .promo .wrap {
         min-height: 0;
     }
@@ -680,7 +688,7 @@ footer .logo img {
     }
     .promo-link,
     .promo-button {
-        margin: 0 15px 15px;
+        /* margin: 0 15px 15px; */
     }
     footer {
         padding-top: 0;
@@ -692,7 +700,7 @@ footer .logo img {
     .copy,
     .istore,
     .social {
-        float: none;
+        /* float: none; */
         margin: 0;
         text-align: center;
     }
@@ -751,6 +759,7 @@ footer .logo img {
     header .logo {
         float: none;
         display: inline-block;
+        line-height: initial;
     }
     header .social {
         display: none;
